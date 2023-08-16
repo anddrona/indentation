@@ -1,0 +1,23 @@
+.total__container {
+    border-radius: 10px;
+    background: #F1F1F1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.total__item{
+    margin-bottom: 30px;
+}
+
+.total__element::before {
+    content: "–";
+}
+.total__element{
+    margin-bottom: 10px;
+}
+.total__element:last-child{
+    margin-bottom: 0;
+}
+.total__text:last-child{
+    margin-bottom: 0;
+}

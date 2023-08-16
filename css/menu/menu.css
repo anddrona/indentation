@@ -1,0 +1,28 @@
+.menu__container {
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.h2 {
+    font-family: 'RobotoBold',sans-serif;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.items__link {
+    border-bottom: 1px solid black;
+}
+
+.nav__items{
+    margin-bottom: 10px;
+    color: #02535F;
+}
+
+.nav__items:last-child{
+    margin-bottom: 0;
+}
+
+.menu {
+    padding-bottom: 50px;
+}

@@ -1,0 +1,55 @@
+@import url(./normalize.css);
+@import url(./global-style.css);
+@import url(./head/head.css);
+@import url(./menu/menu.css);
+@import url(./block-margin-sides/block-margin-sides.css);
+@import url(./block-space-last-child/block-space-last-child.css);
+@import url(./last-element/last-element.css);
+@import url(./total/total.css);
+
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+article{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-family: 'RobotoRegular',sans-serif;
+    font-size: 20px;
+}
+
+.h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: 'RobotoBlack',sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text {
+    margin-bottom: 30px;
+}
+.last {
+    margin-bottom: 0;
+}
+.h3 {
+    font-family: 'RobotoBlack',sans-serif;
+}

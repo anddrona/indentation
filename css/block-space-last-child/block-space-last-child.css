@@ -1,0 +1,29 @@
+.block-space-title {
+    max-width:max-content;
+}
+
+.block-space-img{
+    margin-bottom: 30px;
+}
+
+.warn-container__img{
+    margin-bottom: 15px;
+}
+.warn-container__text{
+    padding-bottom: 15px;
+    max-width: 1020px;
+    margin: 0 auto;
+    color: #5E5E5E;
+}
+.warn-container {
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.block-space-last-child{
+    padding-bottom: 50px;
+}
+
+.block-space__text:last-child{
+    margin: 0;
+}

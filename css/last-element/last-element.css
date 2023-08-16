@@ -1,0 +1,13 @@
+.last-element__img{
+    margin-bottom: 30px;
+}
+.photo-block{
+    line-height:0;
+    margin-bottom: 30px;
+}
+.last-element{
+    padding-bottom: 50px;
+}
+.last-element__img:last-child{
+    margin-bottom: 0;
+}
