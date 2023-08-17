@@ -47,6 +47,7 @@ article{
 .text {
     margin-bottom: 30px;
 }
+
 .last {
     margin-bottom: 0;
 }
@@ -54,10 +55,10 @@ article{
     font-family: 'RobotoBlack',sans-serif;
 }
 
-.head{
+.text-block{
     padding-bottom: 50px;
 }
 
-.head__text:last-child{
+.head-text:last-child{
     margin-bottom: 0;
 }

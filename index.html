@@ -10,9 +10,9 @@
 
 <body>
     <article>
-            <div class="container">
+            <div class="container text-block">
                 <h1 class="h1">Отступы в вёрстке: margin и padding</h1>
-                <p class="text head__text">
+                <p class="text head-text">
                     В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей
                     читаемости
                     вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют
@@ -23,7 +23,7 @@
                     При
                     этом другие части кода продолжат нормально работать.
                 </p>
-                <p class="text head__text">
+                <p class="text head-text">
                     Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти
                     знания
                     особенно важны для начинающих, но также будут полезным напоминанием и для более опытных
@@ -165,13 +165,17 @@
                 <p class="text">
                     Для наглядности возьмём наш предыдущий пример с рецептами
                 </p>
-                <p class="text">
+
+                <figure class="last-element__img">
+                    <figcaption class="text">
                     Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое
                     же.
-                </p>
-                <div class="last-element__img center">
-                    <img src="./images/image8.jpg" alt="">
-                </div>
+                    </figcaption>
+                    <div class="center">
+                        <img src="./images/image8.jpg" alt="">
+                    </div>
+                </figure>
+
                 <p class="text">
                     В соответствии со вторым принципом: последний <span class="italic"> margin</span> обнуляется, а
                     нижний отступ задаётся через
@@ -200,19 +204,29 @@
                 <div class="last-element__img center">
                     <img src="./images/image13.jpg" alt="">
                 </div>
-                <p class="text">
-                    Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами
-                    меню задаются так:
-                </p>
-                <div class="last-element__img center">
-                    <img src="./images/image14.jpg" alt="">
-                </div>
-                <p class="text">
-                    Советую использовать псевдоклассы :last-child чаще других, например так:
-                </p>
-                <div class="last-element__img center">
-                    <img src="./images/image15.jpg" alt="">
-                </div>
+
+                <figure class="last-element__img">
+                    <figcaption class="text">
+                        <p>
+                            Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами
+                            меню задаются так:
+                        </p>
+                    </figcaption>
+                    <div class="center">
+                        <img src="./images/image14.jpg" alt="">
+                    </div>
+                </figure>
+                
+                <figure class="last-element__img">
+                    <figcaption class="text">
+                        <p>
+                            Советую использовать псевдоклассы :last-child чаще других, например так:
+                        </p>
+                    </figcaption>
+                    <div class="center">
+                        <img src="./images/image15.jpg" alt="">
+                    </div>
+                </figure>
             </div>
         </section>
         <section class="total">
